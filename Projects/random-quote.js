@@ -83,5 +83,5 @@ function getQuote() {
 }
 
 $(document).ready(function () {
-  $('#new-quote').on('click', getQuote);
+  getQuote(), $('#new-quote').on('click', getQuote);
 });
